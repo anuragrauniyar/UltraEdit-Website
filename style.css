@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Navbar {
+  display: flex;
+  padding: 5px;
+  height: 100px;
+  width: 100vw;
+}
+.image {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  width: 175px;
+  box-sizing: border-box;
+  margin: 15px 0px 0px 102px;
+  cursor: pointer;
+}
+.item {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 15px 0px 0px 372px;
+}
+.items {
+  margin: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.items img {
+  width: 10px;
+  margin: 2px;
+}
+.language {
+  width: 26px;
+  height: 26px;
+  margin: 15px 10px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main_body {
+  text-align: center;
+  width: 960px;
+  height: 391px;
+}
+.heading h1 {
+  text-align: center;
+  font-size: 49px;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 50px 20px 10px 10px;
+  display: inline-block;
+}
+.heading img {
+  cursor: pointer;
+}
+.Bold {
+  font-weight: bold;
+}
+.para p {
+  font-size: 23px;
+  margin: 30px;
+}
+.button button {
+  font-size: 14;
+  height: 48px;
+  width: 292px;
+  padding: 12px 20px;
+  background-color: #00b6d1;
+  color: white;
+  font-weight: 700;
+  border: 0px solid white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.lastline {
+  width: 960px;
+  height: 75px;
+  display: flex;
+  overflow: hidden;
+  margin: 60px 0px;
+}
+.lastline img {
+  object-fit: contain;
+  margin: 5px 0px;
+}
+.para1 {
+  margin: 10px 0px 0px 20px;
+  font-size: 24px;
+}
+.para2 {
+  margin: 20px 0px 0px 8px;
+  font-size: 14.4px;
+}
+.content2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.secondary {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 145px 145px 145px 145px;
+  gap: 30px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+  padding: 20px 14px 10px 14px;
+  position: relative;
+}
+.pera {
+  font-size: 20px;
+  font-weight: bold;
+}
+.p2 {
+  position: absolute;
+  top: 55px;
+  font-size: 12px;
+}
+.ancher {
+  text-decoration: none;
+  position: absolute;
+  bottom: 14px;
+  background-color: #5cb85c;
+  color: white;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+@media screen and (max-width: 1000px) {
+  .secondary {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(10, 145px);
+  }
+}
