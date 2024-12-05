@@ -11,7 +11,7 @@ A simple website demonstrating the use of Flexbox and Grid layouts in web develo
 - CSS (Flexbox, Grid)
 
 ## Live Demo
-Check out the live demo of the UltraEdit website: [UltraEdit Website](https://anuragrauniyar.github.io/ultraedit-website/)
+Check out the live demo of the UltraEdit website: [UltraEdit Website](https://anuragrauniyar.github.io/UltraEdit-Website/)
 
 ## How to Run Locally
 1. Clone this repository:  
